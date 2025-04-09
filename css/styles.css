@@ -1,6 +1,43 @@
 #hero {
-    background-color: #4d5154;
+    min-height: 100vh;
+    padding-top: 100px;
+    background: url('../img/bg-hero.jpg') center/cover no-repeat;
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+#hero a.btn {
+    transition: all 0.3s ease;
+}
+
+#hero a.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+#sobre {
+    background-color: #343a40; /* cor mais escura e moderna */
     background-size: cover;
     background-position: center;
-    color: dimgray;
+    color: lightgray;
 }
