@@ -1,3 +1,53 @@
 readme.md
 .idea
 README.md
+# =====================
+# Node.js / Backend
+# =====================
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/*.log
+backend/npm-debug.log
+backend/yarn-debug.log
+backend/yarn-error.log
+
+# Ambiente de banco
+backend/db/*.sqlite
+backend/db/*.dump
+
+# VSCode settings (caso use)
+.vscode/
+
+# =====================
+# Frontend
+# =====================
+# (nenhum build gerado, apenas evitar lixo de sistema)
+css/*.map
+.DS_Store
+Thumbs.db
+
+# =====================
+# Sistema / Geral
+# =====================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# MacOS / Linux
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Icon?
+desktop.ini
+
+# =====================
+# GitHub Pages
+# =====================
+# (caso queira ignorar diretório de build futuro)
+# /dist
